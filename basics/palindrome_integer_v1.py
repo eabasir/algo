@@ -22,5 +22,8 @@ class Solution:
         return digits
 
 
-a = Solution().isPalindrome(1221)
-print(a)
+assert Solution().isPalindrome(1221) == True
+assert Solution().isPalindrome(31) == False
+assert Solution().isPalindrome(-121) == False
+assert Solution().isPalindrome(8) == True
+
