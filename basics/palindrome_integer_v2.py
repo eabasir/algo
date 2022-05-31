@@ -8,8 +8,12 @@ class Solution:
         if x < 0:
             return False
 
+        if x % 10 == 0:
+            return False
+
         L = x
         R = 0
+
 
         while L > R:
             R = R*10 + L % 10
@@ -23,4 +27,7 @@ assert Solution().isPalindrome(12321) == True
 assert Solution().isPalindrome(31) == False
 assert Solution().isPalindrome(-121) == False
 assert Solution().isPalindrome(8) == True
+assert Solution().isPalindrome(10) == False
+assert Solution().isPalindrome(20) == False
+assert Solution().isPalindrome(100) == False
 
