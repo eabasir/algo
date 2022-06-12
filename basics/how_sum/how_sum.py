@@ -1,4 +1,6 @@
 # return a possible combination of elements of an array that add up to a target
+# time complexity: O(M*N) => M = target , N = number of elements
+# space complexity: O(N*Mˆ2)  // TODO: as we are decrementing the array elements in each step of tree. is this correct?
 
 class Solution:
 
