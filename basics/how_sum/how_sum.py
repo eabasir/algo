@@ -1,6 +1,7 @@
 # return a possible combination of elements of an array that add up to a target
-# time complexity: O(N*Mˆ2) => M = target , N = number of elements
-# space complexity: O(Mˆ2)
+# time complexity: O(Nˆ2*Mˆ2) => M = target , N = number of elements // TODO: Nˆ2 as we slice the array in for loop so there is an extra N?
+# space complexity: O(Nˆ2*Mˆ2) // TODO: in each call a new array is created (by slice) so the original array is not passed downside by reference. that means in worst case,
+# arrays of sizes: 1,2,3,...,N are save on memory which is Nˆ2
 
 class Solution:
 
