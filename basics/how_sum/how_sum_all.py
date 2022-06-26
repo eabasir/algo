@@ -1,6 +1,6 @@
 # return a possible combination of elements of an array that add up to a target
-# time complexity: O(N*Mˆ3) => M = target , N = number of elements
-# space complexity: O(Mˆ3)
+# time complexity: O(Nˆ2*Mˆ3) => M = target , N = number of elements // TODO: is this correct? look at the how_sum before
+# space complexity: O(Nˆ2*Mˆ3) // TODO: is this correct? look at the how_sum before
 
 class Solution:
 
